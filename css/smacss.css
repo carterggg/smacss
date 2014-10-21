@@ -15,6 +15,12 @@ body {
 	background-image:url(../images/background.jpg)
 }
 
+header {
+	margin-right: auto;
+	margin-left: auto;
+	text-align:right;
+}
+
 footer {
 	height:50px;
 	background-color:#000;
@@ -132,13 +138,8 @@ form li{
 	border-radius: 10px 10px 10px 10px;
 }
 
-#header {
-	margin-right: auto;
-	margin-left: auto;
-	text-align:right;
-}
 
-#linkbar {
+.layout-linkbar {
 	height:60px;
 	left: auto;
 	top: auto;
@@ -167,7 +168,7 @@ form li{
 }
 
 
-.albumcover {
+.layout-albumcover {
 	width:386px;
 	background-color:#000;
 	color:#fff;
@@ -185,7 +186,7 @@ form li{
 	text-align:center;
 }
 
-.textit {
+.layout-bandbiocontent {
 	background-color: #FFF;
 	border: 2px solid #000;
 	color: #000;	
@@ -197,25 +198,23 @@ form li{
 	text-align:center;
 }
 
-.p {
+.layout-paragraphfontsize {
 	font-size:16px;
 }
 
-.contactcontainer {
+.layout-contactcontent {
 	text-align:center;
 	float:left;
 	padding:20px;
 }
 
-#contactcontainer {
+#layout-adpositioning {
 	text-align:center;
 	float:right;
 	padding:20px;
 }
 
-.contactp {
-	text-align:center;
-}
+
 
 #layout-musicsection {
 	width:800px;
@@ -223,7 +222,7 @@ form li{
 }
 	
 
-#ptwitter {
+#layout-twittertitle {
 	width:180px;
 	margin:auto;
 	background-color:#000;
@@ -239,11 +238,11 @@ form li{
 	padding-right:2px;
 }
 
-#shopcontainer {
+#layout-shopcontent {
 	text-align:center;
 }
 
-#pcopyright {
+#layout-copyrightsection {
 	width:750px;
 	margin:auto;
 	background-color:#000;
@@ -259,25 +258,21 @@ form li{
 	padding-right:2px;
 }
 
-#socialcontainer {
+.layout-socialnetworkcontent {
 	text-align:center;
 }
 
-#logotitle {
+.layout-mainlogo {
 	text-align:right;
 }
 
 
-
-
-
-
-#tourdate {
+#layout-tourdatesection {
 	margin: auto;
 	float:left;
 }
 
-#maininfo {
+#layout-maininfosection {
 	width: 707px;
 	height: 242px;
 	float: right;
@@ -288,22 +283,11 @@ form li{
 	border-radius: 10px 10px 10px 10px;
 }
 
-#mainphoto {
+#layout-mainphotosection {
 	float: right;
 }
 
-
-#personal label{
-	width:100px;
-	display:inline-block;
-}
-
-
-
-
-
-
-#submit {
+#layout-submitbutton {
 	float:right;
 }
 
