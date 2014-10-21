@@ -15,6 +15,20 @@ body {
 	background-image:url(../images/background.jpg)
 }
 
+footer {
+	height:50px;
+	background-color:#000;
+	color:#FFF;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	margin: auto;
+	padding:10px;
+	clear:both;
+	
+}
+
 nav {
 	width: 698px;
 	background-color: #000;
@@ -133,7 +147,7 @@ form li{
 	margin: auto;
 }
 
-.containerbody {
+.layout-albumcontent {
 	width:400px;
 	margin: auto;
 	text-align:center;
@@ -141,22 +155,10 @@ form li{
 	
 }
 
-#footer {
-	height:50px;
-	background-color:#000;
-	color:#FFF;
-	left: auto;
-	top: auto;
-	right: auto;
-	bottom: auto;
-	margin: auto;
-	padding:10px;
-	clear:both;
-	
-}
 
 
-#p {
+
+#layout-bandmemberinfo {
 	background-color: #000;
 	font-family: "Arial Black", Gadget, sans-serif;
 	color: #FFF;
@@ -179,7 +181,6 @@ form li{
 
 
 .albumcover {
-	height:;
 	width:386px;
 	background-color:#000;
 	color:#fff;
@@ -192,7 +193,7 @@ form li{
 	text-align:center;
 }
 
-#containerbody {
+.layout-maincontent {
 	margin: auto;
 	text-align:center;
 }
@@ -343,3 +344,4 @@ form li{
     font-size: 200%;
     color: #000;
 } 
+
